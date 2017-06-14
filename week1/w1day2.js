@@ -61,21 +61,6 @@ min(array2);
     console.log(average([1,3,5]));
 
 
-function fizzBuzz(countTo) {
-  switch (countTo){
-    case countTo % 3 === 0:
-      return "fizz";
-      break;
-    case countTo % 5 === 0:
-      return "buzz";
-      break;
-    case countTo % 15 === 0:
-      return "fizzbuzz"
-      break;
-  }
-
-}
-
 
 // HAZARD ALERT ///////////////////////////////////
 
@@ -151,7 +136,7 @@ return newArray();
 
 filter(myNames, function(name){return name[0] === 'R'});
 
-// SWITCH ///////////////////
+// SWITCH fizz buzz ///////////////////
 
 function doFizzBuzz(num) {
   switch (num % 15){
@@ -216,4 +201,4 @@ var doubles = numbers.map(function(num) {
   return num * 2;
 });
 
-//Need to check 
+//Need to check

@@ -1,0 +1,11 @@
+.date, .pair {
+  width: 200px;
+}
+
+.topic {
+  width: 400px;
+}
+
+.col {
+  border: thin solid black;
+}
