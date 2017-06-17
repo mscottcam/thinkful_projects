@@ -1,9 +1,17 @@
+table {
+  width: 100%;
+}
+
+tr {
+  width: 100%;
+}
+
 .date, .pair {
-  width: 200px;
+  width: 25%;
 }
 
 .topic {
-  width: 400px;
+  width: 50%;
 }
 
 .col {
